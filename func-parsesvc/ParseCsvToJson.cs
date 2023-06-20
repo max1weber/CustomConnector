@@ -5,16 +5,16 @@ using Microsoft.Extensions.Logging;
 
 namespace func_parsesvc
 {
-    public class Function1
+    public class ParseCsvToJson
     {
         private readonly ILogger _logger;
 
-        public Function1(ILoggerFactory loggerFactory)
+        public ParseCsvToJson(ILoggerFactory loggerFactory)
         {
-            _logger = loggerFactory.CreateLogger<Function1>();
+            _logger = loggerFactory.CreateLogger<ParseCsvToJson>();
         }
 
-        [Function("parse CSV")]
+        [Function("parsecsvtojson")]
         public HttpResponseData Run([HttpTrigger(AuthorizationLevel.Function,  "post")] HttpRequestData req)
         {
             _logger.LogInformation("C# HTTP trigger function processed a request.");
