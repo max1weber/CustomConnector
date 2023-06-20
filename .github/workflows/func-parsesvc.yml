@@ -5,7 +5,7 @@ on:
     - feature/parsecsv
 env:
   AZURE_FUNCTIONAPP_NAME: func-parsesvc
-  AZURE_FUNCTIONAPP_PACKAGE_PATH: func-parsesvc\.
+  AZURE_FUNCTIONAPP_PACKAGE_PATH: func-parsesvc
   CONFIGURATION: Release
   DOTNET_CORE_VERSION: 7.0.x
   WORKING_DIRECTORY: func-parsesvc
