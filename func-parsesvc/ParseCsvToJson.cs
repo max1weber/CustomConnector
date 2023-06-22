@@ -1,5 +1,6 @@
 using System.Net;
 using System.Net.Mime;
+using System.Text.Json;
 using System.Text.RegularExpressions;
 using FunctionLib;
 using Microsoft.AspNetCore.WebUtilities;
@@ -32,7 +33,7 @@ namespace func_parsesvc
         [OpenApiParameter(name: "separator", In = ParameterLocation.Query, Required = false, Type = typeof(char), Summary = Constants.SEPARATORPARAMSUMMARY, Description = Constants.SEPARATORPARAMDESCRIPTION, Visibility = OpenApiVisibilityType.Undefined)]
         [OpenApiRequestBody("text/csv", typeof(string))]
 
-        [OpenApiResponseWithBody(statusCode: HttpStatusCode.OK, contentType: "application/json", bodyType: typeof(string), Summary = "The JSON Response" , Description = "This return the JSON Response of the CSV Payload")]
+        [OpenApiResponseWithBody(statusCode: HttpStatusCode.OK, contentType: "application/json", bodyType: typeof(JsonDocument), Summary = "The JSON Response" , Description = "This return the JSON Response of the CSV Payload")]
         [OpenApiResponseWithoutBody(statusCode: HttpStatusCode.BadRequest, Description = "The operation was not completed successfully")]
         [Function("parsecsvtojson")]
         public async Task<HttpResponseData> Run([HttpTrigger(AuthorizationLevel.Function,  "post")] HttpRequestData req)
