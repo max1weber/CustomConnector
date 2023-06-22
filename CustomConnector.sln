@@ -5,6 +5,10 @@ VisualStudioVersion = 17.5.33627.172
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "func-parsesvc", "func-parsesvc\func-parsesvc.csproj", "{D305D3CA-DA07-45C0-89CF-810AC20C0A0C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunctionLib", "FunctionLib\FunctionLib.csproj", "{5B7E5769-4340-4322-BE4C-49F424A118E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{33615DCB-B67E-471D-B260-677F6CE9AF8C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{D305D3CA-DA07-45C0-89CF-810AC20C0A0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D305D3CA-DA07-45C0-89CF-810AC20C0A0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D305D3CA-DA07-45C0-89CF-810AC20C0A0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B7E5769-4340-4322-BE4C-49F424A118E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B7E5769-4340-4322-BE4C-49F424A118E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B7E5769-4340-4322-BE4C-49F424A118E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B7E5769-4340-4322-BE4C-49F424A118E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33615DCB-B67E-471D-B260-677F6CE9AF8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33615DCB-B67E-471D-B260-677F6CE9AF8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33615DCB-B67E-471D-B260-677F6CE9AF8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33615DCB-B67E-471D-B260-677F6CE9AF8C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
