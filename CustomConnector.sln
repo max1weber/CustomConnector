@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33627.172
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "func-parsesvc", "func-parsesvc\func-parsesvc.csproj", "{D305D3CA-DA07-45C0-89CF-810AC20C0A0C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "func-parsesvc", "func-parsesvc\func-parsesvc.csproj", "{D305D3CA-DA07-45C0-89CF-810AC20C0A0C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunctionLib", "FunctionLib\FunctionLib.csproj", "{5B7E5769-4340-4322-BE4C-49F424A118E8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FunctionLib", "FunctionLib\FunctionLib.csproj", "{5B7E5769-4340-4322-BE4C-49F424A118E8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{33615DCB-B67E-471D-B260-677F6CE9AF8C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tests", "Tests\Tests.csproj", "{33615DCB-B67E-471D-B260-677F6CE9AF8C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

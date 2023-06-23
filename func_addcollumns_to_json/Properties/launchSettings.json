@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "func_addcollumns_to_json": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7225",
+      "launchBrowser": false
+    }
+  }
+}

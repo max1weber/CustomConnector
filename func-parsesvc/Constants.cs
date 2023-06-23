@@ -9,7 +9,7 @@ namespace func_parsesvc
     public  static  class Constants
     {
        public  const string FUNCTIONDESCRIPTION = @"This function will parse the Request Body for the CSV content. Based  on Input Variable (UseHeaders (bool)) will the function use the Header info from the first row. Otherwise is will use the headers supplied from the QueryString param (headers)";
-        public const string FUNCTIONSUMMARY = @"Get the JSON Array ot the CSV Content";
+        public const string FUNCTIONSUMMARY = @"Get the JSON Array from the CSV Content";
 
 
         public const string OBJECTNAMEPARAMSUMMARY = @"The name of the JSON object returned";
